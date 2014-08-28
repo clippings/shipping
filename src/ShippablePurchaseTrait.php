@@ -19,6 +19,28 @@ use InvalidArgumentException;
  */
 trait ShippablePurchaseTrait
 {
+    /**
+     * @param  $name         string
+     * @return AbstractModel
+     */
+    abstract public function get($name);
+
+    /**
+     * @param string        $name
+     * @param AbstractModel $model
+     */
+    abstract public function set($name, AbstractModel $model);
+
+    /**
+     * @return \Harp\Harp\Repo\LinkMany
+     */
+    abstract public function getItems();
+
+    /**
+     * @return \Harp\Harp\Repo\LinkMany
+     */
+    abstract public function getProductItems();
+
     public static function initialize(Config $config)
     {
         $config
@@ -45,7 +67,6 @@ trait ShippablePurchaseTrait
      * Set this as the shipping location
      *
      * @param  Location $location
-     * @return self
      */
     public function setShippingLocation(Location $location)
     {
@@ -62,8 +83,6 @@ trait ShippablePurchaseTrait
 
     /**
      * Iterate through product items and if their shipping items are void or stale, update them with the default shipping
-     *
-     * @return self
      */
     public function updateShippingItems()
     {

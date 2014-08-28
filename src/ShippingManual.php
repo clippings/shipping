@@ -2,7 +2,6 @@
 
 namespace CL\Shipping;
 
-use Harp\Harp\AbstractModel;
 use Harp\Harp\Config;
 use Harp\Harp\Rel;
 use Harp\Locations\Location;

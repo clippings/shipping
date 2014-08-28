@@ -14,6 +14,12 @@ use Harp\Harp\Rel;
  */
 trait ShippableStoreTrait
 {
+    /**
+     * @param  $name                    string
+     * @return \Harp\Harp\Repo\LinkMany
+     */
+    abstract public function all($name);
+
     public static function initialize(Config $config)
     {
         $config

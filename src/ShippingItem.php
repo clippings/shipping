@@ -42,7 +42,7 @@ class ShippingItem extends PurchaseItem
     public $sourceId;
 
     /**
-     * @var array
+     * @var string
      */
     public $parameter;
 
@@ -145,7 +145,7 @@ class ShippingItem extends PurchaseItem
     }
 
     /**
-     * @param Shipping $shipping
+     * @param  Shipping $shipping
      * @return self
      */
     public function setShipping(Shipping $shipping)
@@ -164,7 +164,7 @@ class ShippingItem extends PurchaseItem
     }
 
     /**
-     * @param ProductItem $productItem
+     * @param  ProductItem $productItem
      * @return self
      */
     public function setProductItem(ProductItem $productItem)

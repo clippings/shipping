@@ -4,6 +4,7 @@ namespace CL\Shipping;
 
 use Harp\Harp\Config;
 use Harp\Harp\Rel;
+use Harp\Harp\AbstractModel;
 
 /**
  * This is an extension of CL\Purchases\Product model
@@ -14,6 +15,18 @@ use Harp\Harp\Rel;
  */
 trait ShippableProductTrait
 {
+    /**
+     * @param  $name         string
+     * @return AbstractModel
+     */
+    abstract public function get($name);
+
+    /**
+     * @param string        $name
+     * @param AbstractModel $model
+     */
+    abstract public function set($name, AbstractModel $model);
+
     public static function initialize(Config $config)
     {
         $config
@@ -32,7 +45,6 @@ trait ShippableProductTrait
 
     /**
      * @param  ShippingProfile $shippingProfile
-     * @return self
      */
     public function setShippingProfile(ShippingProfile $shippingProfile)
     {

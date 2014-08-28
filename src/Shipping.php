@@ -75,11 +75,13 @@ class Shipping extends AbstractModel
 
     /**
      * @param  ShippingProfile $shippingProfile
-     * @return static
+     * @return self
      */
     public function setShippingProfile(ShippingProfile $shippingProfile)
     {
-        return $this->set('shippingProfile', $shippingProfile);
+        $this->set('shippingProfile', $shippingProfile);
+
+        return $this;
     }
 
     /**

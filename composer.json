@@ -9,6 +9,13 @@
             "role": "Author"
         }
     ],
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/harp-orm/money"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
         "clippings/purchases": "~0.1",
