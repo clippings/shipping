@@ -15,7 +15,7 @@ use Harp\Harp\Rel;
 trait ShippableStoreTrait
 {
     /**
-     * @param  $name                    string
+     * @param  string $name
      * @return \Harp\Harp\Repo\LinkMany
      */
     abstract public function all($name);

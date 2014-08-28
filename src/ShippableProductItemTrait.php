@@ -26,7 +26,7 @@ trait ShippableProductItemTrait
     abstract public function getProduct();
 
     /**
-     * @param  $name         string
+     * @param  string $name
      * @return AbstractModel
      */
     abstract public function get($name);
@@ -69,7 +69,7 @@ trait ShippableProductItemTrait
     }
 
     /**
-     * @param  ShippingItem $shippingItem
+     * @param ShippingItem $shippingItem
      */
     public function setShippingItem(ShippingItem $shippingItem)
     {

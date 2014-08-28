@@ -64,7 +64,7 @@ class ShippingProfile extends AbstractModel
     public $storeId;
 
     /**
-     * @param  Location $location
+     * @param  Location                   $location
      * @return \Harp\Harp\Repo\RepoModels
      */
     public function getAvailableShippingsFor(Location $location)

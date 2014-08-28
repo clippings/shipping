@@ -77,7 +77,7 @@ class ShippingManual extends Shipping
     }
 
     /**
-     * @param ShippingMethod $shippingMethod
+     * @param  ShippingMethod $shippingMethod
      * @return self
      */
     public function setShippingMethod(ShippingMethod $shippingMethod)
@@ -96,7 +96,7 @@ class ShippingManual extends Shipping
     }
 
     /**
-     * @param Location $location
+     * @param  Location $location
      * @return self
      */
     public function setLocation(Location $location)

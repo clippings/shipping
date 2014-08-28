@@ -16,7 +16,7 @@ use Harp\Harp\AbstractModel;
 trait ShippableProductTrait
 {
     /**
-     * @param  $name         string
+     * @param  string $name
      * @return AbstractModel
      */
     abstract public function get($name);
@@ -44,7 +44,7 @@ trait ShippableProductTrait
     }
 
     /**
-     * @param  ShippingProfile $shippingProfile
+     * @param ShippingProfile $shippingProfile
      */
     public function setShippingProfile(ShippingProfile $shippingProfile)
     {

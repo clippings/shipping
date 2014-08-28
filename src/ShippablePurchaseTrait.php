@@ -21,7 +21,7 @@ use InvalidArgumentException;
 trait ShippablePurchaseTrait
 {
     /**
-     * @param  $name         string
+     * @param  string $name
      * @return AbstractModel
      */
     abstract public function get($name);
@@ -67,7 +67,7 @@ trait ShippablePurchaseTrait
     /**
      * Set this as the shipping location
      *
-     * @param  Location $location
+     * @param Location $location
      */
     public function setShippingLocation(Location $location)
     {
