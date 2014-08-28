@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f2da051a4c0cd72a47f24e066b4d2473",
+    "hash": "b49c424075d6e7e98dab06ee80e0976a",
     "packages": [
         {
             "name": "clippings/currency-convert",
@@ -110,6 +110,7 @@
                     "CL\\Purchases\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -121,10 +122,6 @@
                 }
             ],
             "description": "Multi-Store Marketplace Core Components",
-            "support": {
-                "source": "https://github.com/clippings/purchases/tree/0.1.0",
-                "issues": "https://github.com/clippings/purchases/issues"
-            },
             "time": "2014-08-28 11:38:58"
         },
         {
@@ -493,12 +490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/harp-orm/money.git",
-                "reference": "88cae9787254998277c9ebbc1d3bdfdd604724be"
+                "reference": "057daf7b10aa730a634a064de9f451148edd29a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/harp-orm/money/zipball/88cae9787254998277c9ebbc1d3bdfdd604724be",
-                "reference": "88cae9787254998277c9ebbc1d3bdfdd604724be",
+                "url": "https://api.github.com/repos/harp-orm/money/zipball/057daf7b10aa730a634a064de9f451148edd29a1",
+                "reference": "057daf7b10aa730a634a064de9f451148edd29a1",
                 "shasum": ""
             },
             "require": {
@@ -512,7 +509,6 @@
                     "Harp\\Money\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -524,7 +520,11 @@
                 }
             ],
             "description": "Helper Traits for Sebastian Bergmann's Money",
-            "time": "2014-08-27 15:10:51"
+            "support": {
+                "source": "https://github.com/harp-orm/money/tree/0.2.2",
+                "issues": "https://github.com/harp-orm/money/issues"
+            },
+            "time": "2014-08-28 11:58:28"
         },
         {
             "name": "harp-orm/query",
