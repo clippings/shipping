@@ -1,0 +1,34 @@
+language: php
+
+php:
+  - 5.4
+  - 5.5
+  - hhvm-nightly
+
+matrix:
+  allow_failures:
+    - php: hhvm-nightly
+
+notifications:
+  email: false
+  slack:
+    secure: BqBJvZSOXtL5iLGIKQwoF6mxk6OHnOUM2VhPnkL8StRGtuH2prQ5r4qkzm3HKxR9RhYy3TXehn4F2E19/mFfnAGw+34H6v7AlXFTv5eGjDS6HR6hzcNbaYrhMkaWTE+2Gtj2+ZboinpsbEAHUBH5piAGBwHFUkt0khE0ZATYONk=
+
+
+before_install:
+  - composer selfupdate
+
+install:
+  - composer install
+
+before_script:
+  - mkdir -p build/logs
+  - mysql -e 'create database `clippings/shipping`;'
+  - mysql clippings/shipping < tests/mysql.sql
+
+script:
+  - phpunit --coverage-clover build/logs/clover.xml
+
+after_script:
+  - test -e build/logs/clover.xml && wget https://scrutinizer-ci.com/ocular.phar
+  - test -e build/logs/clover.xml && php ocular.phar code-coverage:upload --format=php-clover build/logs/clover.xml

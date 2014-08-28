@@ -1,0 +1,1174 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f2da051a4c0cd72a47f24e066b4d2473",
+    "packages": [
+        {
+            "name": "clippings/currency-convert",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clippings/currency-convert.git",
+                "reference": "64251f77c3a6c0f52cdda171ea0644b0c7cb9f71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clippings/currency-convert/zipball/64251f77c3a6c0f52cdda171ea0644b0c7cb9f71",
+                "reference": "64251f77c3a6c0f52cdda171ea0644b0c7cb9f71",
+                "shasum": ""
+            },
+            "require": {
+                "clippings/psr-cache": "~0.1",
+                "sebastian/money": "~1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CL\\CurrencyConvert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Currency Conversion for the Money package",
+            "time": "2014-06-10 11:57:09"
+        },
+        {
+            "name": "clippings/psr-cache",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clippings/psr-cache.git",
+                "reference": "1049d949f4408e9fc928ec7d1af1ec207e219d66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clippings/psr-cache/zipball/1049d949f4408e9fc928ec7d1af1ec207e219d66",
+                "reference": "1049d949f4408e9fc928ec7d1af1ec207e219d66",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CL\\PsrCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Psr Cache Interfaces and dummy implementation",
+            "time": "2014-06-10 07:34:35"
+        },
+        {
+            "name": "clippings/purchases",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clippings/purchases.git",
+                "reference": "22e82368a7a7d19a5aed183e2fa7c1c6fa726ffb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clippings/purchases/zipball/22e82368a7a7d19a5aed183e2fa7c1c6fa726ffb",
+                "reference": "22e82368a7a7d19a5aed183e2fa7c1c6fa726ffb",
+                "shasum": ""
+            },
+            "require": {
+                "clippings/transfer": "~0.2.0",
+                "harp-orm/locations": "~0.3.0",
+                "harp-orm/materialized-path": "~0.3.0",
+                "harp-orm/random-key": "~0.3.0",
+                "harp-orm/timestamps": "~0.3.0"
+            },
+            "require-dev": {
+                "omnipay/dummy": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CL\\Purchases\\": "src/"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Multi-Store Marketplace Core Components",
+            "support": {
+                "source": "https://github.com/clippings/purchases/tree/0.1.0",
+                "issues": "https://github.com/clippings/purchases/issues"
+            },
+            "time": "2014-08-28 11:38:58"
+        },
+        {
+            "name": "clippings/transfer",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clippings/transfer.git",
+                "reference": "e06a6b5e4c18de499b5c6920ef9305898a361600"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clippings/transfer/zipball/e06a6b5e4c18de499b5c6920ef9305898a361600",
+                "reference": "e06a6b5e4c18de499b5c6920ef9305898a361600",
+                "shasum": ""
+            },
+            "require": {
+                "harp-orm/harp": "~0.3.0",
+                "harp-orm/money": "~0.2.1",
+                "omnipay/dummy": "~2.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CL\\Transfer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Persistent Omnipay Request / Response Objects",
+            "time": "2014-08-25 08:37:42"
+        },
+        {
+            "name": "guzzle/common",
+            "version": "v3.9.2",
+            "target-dir": "Guzzle/Common",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/common.git",
+                "reference": "2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/common/zipball/2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc",
+                "reference": "2e36af7cf2ce3ea1f2d7c2831843b883a8e7b7dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/event-dispatcher": ">=2.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Common": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Common libraries used by Guzzle",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "collection",
+                "common",
+                "event",
+                "exception"
+            ],
+            "time": "2014-08-11 04:32:36"
+        },
+        {
+            "name": "guzzle/http",
+            "version": "v3.9.2",
+            "target-dir": "Guzzle/Http",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/http.git",
+                "reference": "1e8dd1e2ba9dc42332396f39fbfab950b2301dc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/http/zipball/1e8dd1e2ba9dc42332396f39fbfab950b2301dc5",
+                "reference": "1e8dd1e2ba9dc42332396f39fbfab950b2301dc5",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/common": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/stream": "self.version",
+                "php": ">=5.3.2"
+            },
+            "suggest": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Http": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "HTTP libraries used by Guzzle",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "client",
+                "curl",
+                "http",
+                "http client"
+            ],
+            "time": "2014-08-11 04:32:36"
+        },
+        {
+            "name": "guzzle/parser",
+            "version": "v3.9.2",
+            "target-dir": "Guzzle/Parser",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/parser.git",
+                "reference": "6874d171318a8e93eb6d224cf85e4678490b625c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/parser/zipball/6874d171318a8e93eb6d224cf85e4678490b625c",
+                "reference": "6874d171318a8e93eb6d224cf85e4678490b625c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Parser": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Interchangeable parsers used by Guzzle",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "URI Template",
+                "cookie",
+                "http",
+                "message",
+                "url"
+            ],
+            "time": "2014-02-05 18:29:46"
+        },
+        {
+            "name": "guzzle/stream",
+            "version": "v3.9.2",
+            "target-dir": "Guzzle/Stream",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/stream.git",
+                "reference": "60c7fed02e98d2c518dae8f97874c8f4622100f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/stream/zipball/60c7fed02e98d2c518dae8f97874c8f4622100f0",
+                "reference": "60c7fed02e98d2c518dae8f97874c8f4622100f0",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/common": "self.version",
+                "php": ">=5.3.2"
+            },
+            "suggest": {
+                "guzzle/http": "To convert Guzzle request objects to PHP streams"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Stream": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle stream wrapper component",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "component",
+                "stream"
+            ],
+            "time": "2014-05-01 21:36:02"
+        },
+        {
+            "name": "harp-orm/harp",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/harp.git",
+                "reference": "a58b47e62d0f7ab41eb924f02da71c8687cb663b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/harp/zipball/a58b47e62d0f7ab41eb924f02da71c8687cb663b",
+                "reference": "a58b47e62d0f7ab41eb924f02da71c8687cb663b",
+                "shasum": ""
+            },
+            "require": {
+                "harp-orm/query": "~0.2.0",
+                "harp-orm/serializer": "~0.1.0",
+                "harp-orm/util": "~0.2.2",
+                "harp-orm/validate": "~0.4.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\Harp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Light and Flexible ORM without magic",
+            "time": "2014-08-28 08:49:24"
+        },
+        {
+            "name": "harp-orm/locations",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/locations.git",
+                "reference": "61adf9ce6bdb2791b0f88e172e1f4b7fb4028fc0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/locations/zipball/61adf9ce6bdb2791b0f88e172e1f4b7fb4028fc0",
+                "reference": "61adf9ce6bdb2791b0f88e172e1f4b7fb4028fc0",
+                "shasum": ""
+            },
+            "require": {
+                "harp-orm/materialized-path": "~0.3.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\Locations\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Regions, Countries and Cities.",
+            "time": "2014-07-14 07:51:57"
+        },
+        {
+            "name": "harp-orm/materialized-path",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/materialized-path.git",
+                "reference": "752006b5b6f35253217d551625def9cfc85572d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/materialized-path/zipball/752006b5b6f35253217d551625def9cfc85572d7",
+                "reference": "752006b5b6f35253217d551625def9cfc85572d7",
+                "shasum": ""
+            },
+            "require": {
+                "harp-orm/harp": "~0.3.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\MP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Materialized path nesting for Harp ORM models",
+            "time": "2014-07-17 15:50:05"
+        },
+        {
+            "name": "harp-orm/money",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/money.git",
+                "reference": "88cae9787254998277c9ebbc1d3bdfdd604724be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/money/zipball/88cae9787254998277c9ebbc1d3bdfdd604724be",
+                "reference": "88cae9787254998277c9ebbc1d3bdfdd604724be",
+                "shasum": ""
+            },
+            "require": {
+                "clippings/currency-convert": "~0.1",
+                "harp-orm/harp": "~0.3.2",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\Money\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Helper Traits for Sebastian Bergmann's Money",
+            "time": "2014-08-27 15:10:51"
+        },
+        {
+            "name": "harp-orm/query",
+            "version": "0.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/query.git",
+                "reference": "a0627bedc11d062580fc33b71e57f9d8df45bdbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/query/zipball/a0627bedc11d062580fc33b71e57f9d8df45bdbc",
+                "reference": "a0627bedc11d062580fc33b71e57f9d8df45bdbc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "clippings/env-backup": "~0.2.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\Query\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                },
+                {
+                    "name": "Haralan Dobrev",
+                    "email": "hkdobrev@gmail.com",
+                    "homepage": "http://hkdobrev.blogspot.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SQL Builder for PDO",
+            "time": "2014-07-07 11:52:30"
+        },
+        {
+            "name": "harp-orm/random-key",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/random-key.git",
+                "reference": "2ae8d66ff3c6b37c6ee0bbb8766d725278d4b23c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/random-key/zipball/2ae8d66ff3c6b37c6ee0bbb8766d725278d4b23c",
+                "reference": "2ae8d66ff3c6b37c6ee0bbb8766d725278d4b23c",
+                "shasum": ""
+            },
+            "require": {
+                "harp-orm/harp": "~0.3.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\RandomKey\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Generate a random key for a model property",
+            "time": "2014-07-14 09:24:38"
+        },
+        {
+            "name": "harp-orm/range",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/range.git",
+                "reference": "f7c948d5b9ceb06113988d3d85515812280da3b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/range/zipball/f7c948d5b9ceb06113988d3d85515812280da3b7",
+                "reference": "f7c948d5b9ceb06113988d3d85515812280da3b7",
+                "shasum": ""
+            },
+            "require": {
+                "harp-orm/validate": "~0.4.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "harp-orm/harp": "~0.3.2",
+                "psr/log": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\Range\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "An object representing 2 integer values",
+            "time": "2014-08-28 10:06:57"
+        },
+        {
+            "name": "harp-orm/serializer",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/serializer.git",
+                "reference": "652a190ceabb4f3c55a41f33e0b23ba5197bd964"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/serializer/zipball/652a190ceabb4f3c55a41f33e0b23ba5197bd964",
+                "reference": "652a190ceabb4f3c55a41f33e0b23ba5197bd964",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\Serializer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Serialize object properties",
+            "time": "2014-07-17 11:30:08"
+        },
+        {
+            "name": "harp-orm/timestamps",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/timestamps.git",
+                "reference": "a05891e17a59fc2268cdb4b7872da25196da36e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/timestamps/zipball/a05891e17a59fc2268cdb4b7872da25196da36e9",
+                "reference": "a05891e17a59fc2268cdb4b7872da25196da36e9",
+                "shasum": ""
+            },
+            "require": {
+                "harp-orm/harp": "~0.3.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\Timestamps\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Automatic createdAt and updatedAt properties",
+            "time": "2014-07-11 13:58:34"
+        },
+        {
+            "name": "harp-orm/util",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/util.git",
+                "reference": "b077d11dd15bf111313484aa427825a54808671d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/util/zipball/b077d11dd15bf111313484aa427825a54808671d",
+                "reference": "b077d11dd15bf111313484aa427825a54808671d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\Util\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "homepage": "http://www.openbuildings.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "General purpose helper methods",
+            "time": "2014-07-17 15:29:20"
+        },
+        {
+            "name": "harp-orm/validate",
+            "version": "0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harp-orm/validate.git",
+                "reference": "c9cd4963a15c4311cb665de346502e26b268e205"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harp-orm/validate/zipball/c9cd4963a15c4311cb665de346502e26b268e205",
+                "reference": "c9cd4963a15c4311cb665de346502e26b268e205",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Harp\\Validate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Kerin",
+                    "email": "ikerin@gmail.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "Object validaiton library",
+            "time": "2014-08-28 08:39:30"
+        },
+        {
+            "name": "omnipay/common",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/omnipay/common.git",
+                "reference": "f7d50ce82f3528e7402500d8722391ebb69070b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/omnipay/common/zipball/f7d50ce82f3528e7402500d8722391ebb69070b8",
+                "reference": "f7d50ce82f3528e7402500d8722391ebb69070b8",
+                "shasum": ""
+            },
+            "require": {
+                "guzzle/http": "~3.1",
+                "php": ">=5.3.2",
+                "symfony/http-foundation": "~2.1"
+            },
+            "require-dev": {
+                "omnipay/tests": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "gateways": [
+                    "AuthorizeNet_AIM",
+                    "AuthorizeNet_SIM",
+                    "Buckaroo",
+                    "Buckaroo_Ideal",
+                    "Buckaroo_PayPal",
+                    "CardSave",
+                    "Coinbase",
+                    "Dummy",
+                    "Eway_Rapid",
+                    "FirstData_Connect",
+                    "GoCardless",
+                    "Manual",
+                    "Migs_ThreeParty",
+                    "Migs_TwoParty",
+                    "Mollie",
+                    "MultiSafepay",
+                    "Netaxept",
+                    "NetBanx",
+                    "PayFast",
+                    "Payflow_Pro",
+                    "PaymentExpress_PxPay",
+                    "PaymentExpress_PxPost",
+                    "PayPal_Express",
+                    "PayPal_Pro",
+                    "Pin",
+                    "SagePay_Direct",
+                    "SagePay_Server",
+                    "SecurePay_DirectPost",
+                    "Stripe",
+                    "TargetPay_Directebanking",
+                    "TargetPay_Ideal",
+                    "TargetPay_Mrcash",
+                    "TwoCheckout",
+                    "WorldPay"
+                ]
+            },
+            "autoload": {
+                "psr-0": {
+                    "Omnipay\\Common\\": "src/"
+                },
+                "classmap": [
+                    "src/Omnipay/Omnipay.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrian Macneil",
+                    "email": "adrian@adrianmacneil.com"
+                },
+                {
+                    "name": "Omnipay Contributors",
+                    "homepage": "https://github.com/omnipay/common/contributors"
+                }
+            ],
+            "description": "Common components for Omnipay payment processing library",
+            "homepage": "https://github.com/omnipay/common",
+            "keywords": [
+                "gateway",
+                "merchant",
+                "omnipay",
+                "pay",
+                "payment",
+                "purchase"
+            ],
+            "time": "2014-05-12 00:54:17"
+        },
+        {
+            "name": "omnipay/dummy",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/omnipay/dummy.git",
+                "reference": "56044c0c1a601ecb575ff4876328af0a49ce938b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/omnipay/dummy/zipball/56044c0c1a601ecb575ff4876328af0a49ce938b",
+                "reference": "56044c0c1a601ecb575ff4876328af0a49ce938b",
+                "shasum": ""
+            },
+            "require": {
+                "omnipay/common": "~2.0"
+            },
+            "require-dev": {
+                "omnipay/tests": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Omnipay\\Dummy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrian Macneil",
+                    "email": "adrian@adrianmacneil.com"
+                },
+                {
+                    "name": "Omnipay Contributors",
+                    "homepage": "https://github.com/omnipay/dummy/contributors"
+                }
+            ],
+            "description": "Dummy driver for the Omnipay payment processing library",
+            "homepage": "https://github.com/omnipay/dummy",
+            "keywords": [
+                "Dummy",
+                "gateway",
+                "merchant",
+                "omnipay",
+                "pay",
+                "payment"
+            ],
+            "time": "2014-04-14 11:25:19"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "sebastian/money",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/money.git",
+                "reference": "79666982385087298eea4b9f05bdc2b431a72821"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/money/zipball/79666982385087298eea4b9f05bdc2b431a72821",
+                "reference": "79666982385087298eea4b9f05bdc2b431a72821",
+                "shasum": ""
+            },
+            "require": {
+                "ext-intl": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Value Object that represents a monetary value (using a currency's smallest unit)",
+            "homepage": "http://www.github.com/sebastianbergmann/money",
+            "keywords": [
+                "money"
+            ],
+            "time": "2014-07-21 07:05:52"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v2.5.3",
+            "target-dir": "Symfony/Component/EventDispatcher",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/EventDispatcher.git",
+                "reference": "8faf5cc7e80fde74a650a36e60d32ce3c3e0457b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/8faf5cc7e80fde74a650a36e60d32ce3c3e0457b",
+                "reference": "8faf5cc7e80fde74a650a36e60d32ce3c3e0457b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~2.0",
+                "symfony/dependency-injection": "~2.0",
+                "symfony/stopwatch": "~2.2"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\EventDispatcher\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony EventDispatcher Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-07-28 13:20:46"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "v2.5.3",
+            "target-dir": "Symfony/Component/HttpFoundation",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/HttpFoundation.git",
+                "reference": "53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3",
+                "reference": "53296aa0794ebe1e3880e3f2c68fe10ddad6c3e3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\HttpFoundation\\": ""
+                },
+                "classmap": [
+                    "Symfony/Component/HttpFoundation/Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony HttpFoundation Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-08-05 09:00:40"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "prefer-stable": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": [
+
+    ]
+}

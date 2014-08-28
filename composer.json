@@ -1,0 +1,31 @@
+{
+    "name": "clippings/shipping",
+    "description": "Shipping extension for clippings/purchases package",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ivan Kerin",
+            "email": "ikerin@gmail.com",
+            "role": "Author"
+        }
+    ],
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/clippings/purchases"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "clippings/purchases": "~0.1",
+        "harp-orm/range": "~0.2",
+        "harp-orm/money": "~0.2"
+    },
+    "require-dev": {
+        "psr/log": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {"CL\\Shipping\\": "src/"}
+    }
+}
