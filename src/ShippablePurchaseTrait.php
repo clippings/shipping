@@ -8,6 +8,7 @@ use CL\Purchases\PurchaseItem;
 use CL\Purchases\Address;
 use Harp\Locations\Location;
 use Harp\Money\MoneyObjects;
+use Harp\Harp\AbstractModel;
 use InvalidArgumentException;
 
 /**
